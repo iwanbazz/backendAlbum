@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 8888;
 
 const start = async () => {
   http.listen(PORT, () =>
-    console.info(`Server started http://https://ekspress.herokuapp.com:${PORT}`)
+    console.info(`Server started https://ekspress.herokuapp.com:${PORT}`)
   );
 
   app
